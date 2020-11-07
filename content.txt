@@ -1,3 +1,13 @@
 Here I'll put ideas I don't want to forget about the content of our webpage
 
-1. it needs to be about ux/ui
+1.) A brief introduction to ux/ui and its purpose. 
+
+2.) The webpage will be split into two sections. The first category will be written about the all 
+different disabilities assigned. 
+
+
+3.) The second section will be about how each disability affects someone 
+and what we can do to help them.
+
+4.) A conclusion about why it's important for ux/ui to support people with disabilities. 
+How we can help people this way. What we can do to spread awareness.
