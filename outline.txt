@@ -1,0 +1,7 @@
+disability categories:
+impaired vision - blindness, color blindness, glaucoma, cataracts, retinopathy (damage to the retinas)
+impaired hearing - deafness, being hard of hearing, having auditory processing disorder, possibly having tinnitus
+impaired motor skills - any disability that affects fine motor skills, which can be anything from autism to cerebral palsy.
+impaired cognitive abilities - any disability that affects cognitive abilities, which can affect a person's ability to plan, comprehend,
+reason, learn and apply practical skills, and focus. these difficulties can be caused by a number of things, like autism, ADHD, learning
+disabilities, brain injuries, or certain kinds of mental illnesses like depression or schizophrenia.
