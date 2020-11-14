@@ -19,3 +19,42 @@ types of disabilities that require accommodations in UX/UI' and then within that
 since there's four categories overall
 and then that trend continues, with 'how these disabilities affect people' also being split into four subsections for each category of
 disability, and then accommodations that help websites be more accessible for each category of disability
+
+
+Overview of Disabilities
+
+Visual Impairments
+This includes people who have problems with sight and struggle with being able to navigate a website with visual impairement. A person who is blind has no way to read
+the page and its contents. Color blindness can also impede with progression and understanding. Glaucoma, cataracts, and retinopathy are also included in visual impairements.
+
+Hearing Impairments
+People who are deaf, hard of hearing, or have an auditory processing disorder all have the challenge of listening to information that is provided from the internet.
+They rely on subtitles and closed captions on music and videos.
+
+Motor skill impairements
+This impairement has a long list of disability names that include ADHD, Parkinson's Disease, Amputees, and to tremors and lack of motor control. There are multiple ways
+change a ux/ui to accomodate these disabilites.
+
+Cognitive impairements
+Learning disabilities, mental illness, and developmental issues are certainly overlooked when creating an ux/ui.
+
+
+
+How People are Affected and How to Help
+
+Visual Impairments
+Text to speach, hovering the cursor over text or videos should be trigger an audible voice that tells you what you're hovering over.
+
+Hearing Impairments
+There should be summaries of the videos and topics, transcripts of audio content, to not include
+auto-play on videos, and easy access to audio options
+
+Motor skill impairements
+There should be a remappable option for keyboard shortcuts available. An outline feature button or 
+links should be enabled. Touch functions are very important and should have simple interface. Tooltips, drop down menus, and pop ups should be 
+dismissable without moving the mouse. An example of this would to remap the keyboard or use the escape button. Users should have an option to turn off motion triggers.
+
+Cognitive impairements
+Using common everyday words with short sentences and paragraphs, displaying videos, and text to speech.
+There should be clear instructions and a bar to show the progress that's been made. Error messages that appear should have clear instructions.
+Clear, colorful images can help along with direct messaging. Captchas shouldn't too difficult or confusing. Avoid using a time limit.
