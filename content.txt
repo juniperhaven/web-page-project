@@ -44,17 +44,31 @@ How People are Affected and How to Help
 
 Visual Impairments
 Text to speach, hovering the cursor over text or videos should be trigger an audible voice that tells you what you're hovering over.
+A keyboard might be the most useful tool to take advantage from. Keyboard shortcuts should be included in the website's interface in order to
+easily navigate. A text label should be provided because a description of the link you're going to click will inform you of the basic information of where
+you are and where you want to go. All text should be clear against the background of the webpage, the font-size of a body of text should be 12-16 pixels with 
+font-spacing at least 25% of the font-size. The ability to lighten and darken colors to increase the contrast between them will help with peopole who are 
+colorblind and/or contrast loss.
+
 
 Hearing Impairments
 There should be summaries of the videos and topics, transcripts of audio content, to not include
-auto-play on videos, and easy access to audio options
+auto-play on videos, and easy access to audio options. Subtitles (closed caption) should be required on videos. If it is not manually entered, it should have an option to auto-generate 
+closed captions by translating the sound into text. Videos that do not support either of these ideas should at the very least include a summary or a description of what the video is about. 
+Auto-generated close captions, subtitles, and description boxes can also be said for audio player. In headings, paragraphs, and lists it is  important to structer content as simply as possible. 
+Well structured information helps people decide whether to engage with content, and can help stem information overload.
 
 Motor skill impairements
 There should be a remappable option for keyboard shortcuts available. An outline feature button or 
 links should be enabled. Touch functions are very important and should have simple interface. Tooltips, drop down menus, and pop ups should be 
-dismissable without moving the mouse. An example of this would to remap the keyboard or use the escape button. Users should have an option to turn off motion triggers.
+dismissable without moving the mouse. Added content can display on top of other information using magnification and can be hard to dismiss without the mouse or changing focus.
+An example of this would to remap the keyboard or use the escape button. Users should have an option to turn off motion triggers. Some content is only displayed when the mouse pointer
+is hovering over to trigger an element and disappears when the mouse moves off the trigger. For people with tremors or limited movement this can be very difficult and frustrating. To fix this,
+content must stay visible at all times, even if the mouse moves onto new content, until the user dismisses it.
 
 Cognitive impairements
-Using common everyday words with short sentences and paragraphs, displaying videos, and text to speech.
+Using common everyday words with short sentences and paragraphs, displaying videos, and text to speech. 
 There should be clear instructions and a bar to show the progress that's been made. Error messages that appear should have clear instructions.
-Clear, colorful images can help along with direct messaging. Captchas shouldn't too difficult or confusing. Avoid using a time limit.
+Clear, colorful images can help along with direct messaging. Captchas shouldn't too difficult or confusing. Avoid using a time limit. Web designers should always try to deliver content in more than
+one way inlucding text-to-speech, videos, and transcripts. Minimize distractions by not including unnexcessary content. Ads can pop out and bait-to-click you when scrolling through, if possible use
+a specific area of the website to put an ad. Elements that move, blink, scroll, or auto-update should have an option to be paused, hidden, stopped, or controlled.
