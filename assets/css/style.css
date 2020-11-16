@@ -1,3 +1,7 @@
 .color-wheel {
     width: 20%;
 }
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}

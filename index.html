@@ -1,97 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Accessibilty in UX and UI</title>
-        <meta property="title" content="UX Design Principles">
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
+  <head>
+   
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibilty in UX and UI</title>
+    <meta property="title" content="UX Design Principles" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+  </head>
 
-    <body>
-        <header>
-            <!-- navigation -->
-            <nav class="nav">
-                <div class="nav-menu flex-row">
-                    <div class="nav-brand">
-                        <h1 class="text-gray">Accessibility in UX and UI</h1>
-                    </div>
-                    <div>
-                        <ul class="nav-items">
-                            <li class="nav link">
-                            <a href="#" >Home</a> 
-                            </li>
-                            <li class="nav link">
-                            <a href="#" >Category</a> 
-                            </li>
-                            <li class="nav link">
-                            <a href="#" >Archive</a> 
-                            </li>
-                            <li class="nav link">
-                            <a href="#" >Contact Us</a> 
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="social text-gray">
-                        <a href="#">Facebook</a>
-                        <a href="#">Instagram</a>
-                        <a href="#">Twitter</a>
-                    </div>
-                </div>
-            </nav>
-            <!-- navigation -->
-        </header>
+  <body>
+    <header>
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand" href="#">Accessibility in UX and UI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Archive</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Social Media
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Facebook</a>
+                <a class="dropdown-item" href="#">Instagram</a>
+                <a class="dropdown-item" href="#">Twitter</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</header>
+<!-- navigation -->
+<main>
+      <h1>What is UX and UI Accessibility?</h1>
+      <p>
+        Let's start with UI. UI, or 'user interface', is a digital medium that
+        users interect with. UX, meanwhile, focuses on a user's experience while
+        interacting with a product.<br />Simply put, UX principles are the core
+        point of advice and guidance for one to create useful, easy-to-use
+        designs, by carefully creating, selecting and organizing features and
+        elements into our designs or products.<br />Every element or feature
+        must have a purpose and placement which is familiar and intuitive to the
+        user, as not to distract or confuse them on their journey. For UI, these
+        are the fundamentals you need to understand:
+      </p>
+      <div>
+        <ul>
+          <li>color and contrast</li>
+          <li>white space</li>
+          <li>visual hierarchy</li>
+          <li>consistencey</li>
+          <li>scale</li>
+        </ul>
+      </div>
+      <p>For UX, these are the fundamnetals you need to understand:</p>
+      <div>
+        <ul>
+          <li>usability comes first</li>
+          <li>the user's needs</li>
+          <li>acessibility</li>
+          <li>simple language</li>
+          <li>consistency</li>
+          <li>the user should be in control</li>
+        </ul>
+      </div>
 
-        <main>
-            <h1>What is UX and UI Accessibility?</h1>
-            <p>Let's start with UI. UI, or 'user interface', is a digital medium that users interect with. UX, meanwhile, focuses on a user's experience while interacting with a product.<br>Simply put, UX principles are the core point of advice and guidance for one to create useful, easy-to-use designs, by carefully creating, selecting and organizing features and elements into our designs or products.<br>Every element or feature must have a purpose and placement which is familiar and intuitive to the user, as not to distract or confuse them on their journey. For UI, these are the fundamentals you need to understand:</p>  
-            <div>
-                <ul>
-                    <li>color and contrast</li>
-                    <li>white space</li>
-                    <li>visual hierarchy </li>
-                    <li>consistencey</li>
-                    <li>scale</li>
-                </ul>
-            </div>
-            <p>For UX, these are the fundamnetals you need to understand:</p>
-            <div>
-                <ul>
-                    <li>usability comes first</li>   
-                    <li>the user's needs</li>
-                    <li>acessibility</li>
-                    <li>simple language</li>
-                    <li>consistency</li>
-                    <li>the user should be in control</li>
-                </ul>
-            </div>
-                
-            <h1>Understanding Accessibility</h1>
-            <p>Accessibility allows users of all abilities to use and enjoy the web. As web designers or developers, particularly those who are UX or UI designers or developers, it is our job to make sure that every bit of our webpage is accessible to everyone.<br>Accessibility is not confined to a group of users with a specific disability. There are many different kinds of disabilities that might affect a user's experience on the internet or change the things they need to successfully use a user interface. There are visual, auditory, speech, cognitive, and motor skill disabilities. The label 'disabled' extends to anyone who is experiencing any permanent, temporary, or situational disability. The ones that are likely to affect a user's experience on the web are disabilities that cause visual impairments, hearing impairments, cognitive impairments, or motor skill impairments.</p>
+      <h1>Understanding Accessibility</h1>
+      <p>
+        Accessibility allows users of all abilities to use and enjoy the web. As
+        web designers or developers, particularly those who are UX or UI
+        designers or developers, it is our job to make sure that every bit of
+        our webpage is accessible to everyone.<br />Accessibility is not
+        confined to a group of users with a specific disability. There are many
+        different kinds of disabilities that might affect a user's experience on
+        the internet or change the things they need to successfully use a user
+        interface. There are visual, auditory, speech, cognitive, and motor
+        skill disabilities. The label 'disabled' extends to anyone who is
+        experiencing any permanent, temporary, or situational disability. The
+        ones that are likely to affect a user's experience on the web are
+        disabilities that cause visual impairments, hearing impairments,
+        cognitive impairments, or motor skill impairments.
+      </p>
 
-            <h1>Different Kinds of Accommodations Needed</h1>
+      <h1>Different Kinds of Accommodations Needed</h1>
 
-            <h2>Accommodations for Users With Visual Impairments</h2>
-            <p>Users who have impaired vision would be those who are blind, color blind, have a condition that causes contrast loss, such as glaucoma, cataracts, or retinopathy, which is damage to the retinas, or have otherwise poor vision. These users may require different accommodations depending on which category they fall into, but as they are all visual impairments, these accommodations may sometimes overlap.</p>
-            <p>Let's start with the accommodations needed for users who are blind.<br>Users who are blind are more likely to use screen readers than your average user, so for them, what really matters is that elements be clearly and accurately labeled in your HTML so their screen reader can accurately convey the information to their user. It's also very important to include the alt attribute on images, because otherwise screen readers won't be able to accurately describe images to their users. Additionally, body text should be at least 12px in size, though 14px-16px is preferred. This makes it easier for those who can't see well but aren't blind to read your content. Finally, keyboard shortcuts need to be available on your website, as people with impaired vision are more likely to use those to navigate websites.</p>
-            <p>Next, let's talk about the accommodations necessary for people who are color blind. First and foremost, it's important that you never deliver content in a way that relies only on colors. With forms, for instance, it's common to outline fields that have been incorrectly filled in with the color red. For color blind users, this can be impossible to navigate. Images or other indicators of where the form error is should also be included. Content should be delivered in text or symbols instead of just colors. It's also important to use colors that are well-contrasted on your webpage, and also make sure those colors don't look too similar to each other. Green and yellow might look perfectly distinct to someone with normal color vision, but for those with red-green colorblindness, they're likely to look very similar, possibly even like the same color, which makes green and yellow a poor color combination.</p>
-            <p>Here is what the color wheel looks like to different color blind users. From left to right, you see the color wheel for someone with deuteranopia (can't see green), protanopia (can't see red), and tritanopia (can't see blue). For comparison, what the color wheel looks like for people with normal color vision has been placed on the end:</p>
-            <img class="color-wheel" src="assets/images/colorblindness - deuteranopia (no green).png" alt="The color wheel that a person with green color blindness would see.">
-            <img class="color-wheel" src="assets/images/colorblindness - protanopia (no red).png" alt="The color wheel that a person with red color blindness would see.">
-            <img class="color-wheel" src="assets/images/colorblindness - tritanopia (no blue).png" alt="The color wheel that a person with blue color blindness would see.">
-            <img class="color-wheel" src="assets/images/normal color wheel.png" alt="The color wheel that people with regular color vision see.">
-            <p>As a note, 'red-green color blindness' is a catch-all term for users with either protanopia or deuteranopia. Those are the two most common kinds of color blindness, but you should always make sure your website looks good and is usable for users with tritanopia as well.</p>
-            <p>Finally, for those with contrast loss, it's very important oto make sure your colors are well-contrasted and not similar in luminosity. Colors that are too close together in brightness (luminosity levels) are likely to be hard for those with contrast loss to distinguish between, even if those colors are on opposite sides of the color wheel.</p>
+      <h2>Accommodations for Users With Visual Impairments</h2>
+      <p>
+        Users who have impaired vision would be those who are blind, color
+        blind, have a condition that causes contrast loss, such as glaucoma,
+        cataracts, or retinopathy, which is damage to the retinas, or have
+        otherwise poor vision. These users may require different accommodations
+        depending on which category they fall into, but as they are all visual
+        impairments, these accommodations may sometimes overlap.
+      </p>
+      <p>
+        Let's start with the accommodations needed for users who are blind.<br />Users
+        who are blind are more likely to use screen readers than your average
+        user, so for them, what really matters is that elements be clearly and
+        accurately labeled in your HTML so their screen reader can accurately
+        convey the information to their user. It's also very important to
+        include the alt attribute on images, because otherwise screen readers
+        won't be able to accurately describe images to their users.
+        Additionally, body text should be at least 12px in size, though
+        14px-16px is preferred. This makes it easier for those who can't see
+        well but aren't blind to read your content. Finally, keyboard shortcuts
+        need to be available on your website, as people with impaired vision are
+        more likely to use those to navigate websites.
+      </p>
+      <p>
+        Next, let's talk about the accommodations necessary for people who are
+        color blind. First and foremost, it's important that you never deliver
+        content in a way that relies only on colors. With forms, for instance,
+        it's common to outline fields that have been incorrectly filled in with
+        the color red. For color blind users, this can be impossible to
+        navigate. Images or other indicators of where the form error is should
+        also be included. Content should be delivered in text or symbols instead
+        of just colors. It's also important to use colors that are
+        well-contrasted on your webpage, and also make sure those colors don't
+        look too similar to each other. Green and yellow might look perfectly
+        distinct to someone with normal color vision, but for those with
+        red-green colorblindness, they're likely to look very similar, possibly
+        even like the same color, which makes green and yellow a poor color
+        combination.
+      </p>
+      <p>
+        Here is what the color wheel looks like to different color blind users.
+        From left to right, you see the color wheel for someone with
+        deuteranopia (can't see green), protanopia (can't see red), and
+        tritanopia (can't see blue). For comparison, what the color wheel looks
+        like for people with normal color vision has been placed on the end:
+      </p>
+      <img
+        class="color-wheel"
+        src="assets/images/colorblindness - deuteranopia (no green).png"
+        alt="The color wheel that a person with green color blindness would see."
+      />
+      <img
+        class="color-wheel"
+        src="assets/images/colorblindness - protanopia (no red).png"
+        alt="The color wheel that a person with red color blindness would see."
+      />
+      <img
+        class="color-wheel"
+        src="assets/images/colorblindness - tritanopia (no blue).png"
+        alt="The color wheel that a person with blue color blindness would see."
+      />
+      <img
+        class="color-wheel"
+        src="assets/images/normal color wheel.png"
+        alt="The color wheel that people with regular color vision see."
+      />
+      <p>
+        As a note, 'red-green color blindness' is a catch-all term for users
+        with either protanopia or deuteranopia. Those are the two most common
+        kinds of color blindness, but you should always make sure your website
+        looks good and is usable for users with tritanopia as well.
+      </p>
+      <p>
+        Finally, for those with contrast loss, it's very important oto make sure
+        your colors are well-contrasted and not similar in luminosity. Colors
+        that are too close together in brightness (luminosity levels) are likely
+        to be hard for those with contrast loss to distinguish between, even if
+        those colors are on opposite sides of the color wheel.
+      </p>
 
-            <h2>Accommodations for Users With Hearing Impairments</h2>
+      <h2>Accommodations for Users With Hearing Impairments</h2>
 
-            <h2>Accommodations for Users With Cognitive Impairments</h2>
-            <p>Cognitive impairments can be caused by a number of different conditions, such as learning disabilities like dyslexia, developmental disabilities like autism or ADHD, and even mental illnesses like schizophrenia. While these conditions all affect people in very different ways, there's a few rules you should follow in UX and UI design to make your website and its interface friendly to those with conditions that affect their cognitive abilities.</p>
-            <p>First and foremost, it's very important to make sure your content is as clear and easy to understand as possible. It should be delivered in multiple formats whenever possible, such as with videos accompanying text, and text-to-speech should be available. Plain language standards should be followed whenever possible, which goes back to the 'simple language' fundamental of user experience design. Plain language standards say that common, everyday words should be used as much as possible, content should be delivered in short sentences and paragraphs, and acronyms should be expanded on wherever they appear. If you can't deliver your conten in short and easy to read sentences, a TL;DR should be provided at the end of the content. Unfamiliar words should be defined whenever they're first used.</p>
-            <p>Instructions on your page should also be clear, and the layout should be easy to understand and follow. Things like forms should have clear instructions and progress bars the user can see, and buttons and links should be clear about what they'll do when clicked. If there's an error in a form field, there should be words explaining what the error is--don't rely only on colors or symbols. The error message should also direct the user right to the error in the form. It's also important to minimize distractions, and this falls under making your layout easy to understand and follow. You should have few or no ads, and if your page has elements that scroll, auto-update, move, or blink, you should make it so those elements can be somehow stopped or hidden or paused. The only exception to this rule is if hiding, stopping, or pausing the element would fundamentally alter the content.</p>
-            <p>Finally, you should avoid time limits on things, but if you have to include a time limit, make sure to provide the user with a way to extend the time limit or turn it off. You also need to warn the user at least 20 seconds before the time limit is up, and provide the user with an easy way to increase the time limit, such as by pressing the spacebar.</p>
+      <h2>Accommodations for Users With Cognitive Impairments</h2>
+      <p>
+        Cognitive impairments can be caused by a number of different conditions,
+        such as learning disabilities like dyslexia, developmental disabilities
+        like autism or ADHD, and even mental illnesses like schizophrenia. While
+        these conditions all affect people in very different ways, there's a few
+        rules you should follow in UX and UI design to make your website and its
+        interface friendly to those with conditions that affect their cognitive
+        abilities.
+      </p>
+      <p>
+        First and foremost, it's very important to make sure your content is as
+        clear and easy to understand as possible. It should be delivered in
+        multiple formats whenever possible, such as with videos accompanying
+        text, and text-to-speech should be available. Plain language standards
+        should be followed whenever possible, which goes back to the 'simple
+        language' fundamental of user experience design. Plain language
+        standards say that common, everyday words should be used as much as
+        possible, content should be delivered in short sentences and paragraphs,
+        and acronyms should be expanded on wherever they appear. If you can't
+        deliver your conten in short and easy to read sentences, a TL;DR should
+        be provided at the end of the content. Unfamiliar words should be
+        defined whenever they're first used.
+      </p>
+      <p>
+        Instructions on your page should also be clear, and the layout should be
+        easy to understand and follow. Things like forms should have clear
+        instructions and progress bars the user can see, and buttons and links
+        should be clear about what they'll do when clicked. If there's an error
+        in a form field, there should be words explaining what the error
+        is--don't rely only on colors or symbols. The error message should also
+        direct the user right to the error in the form. It's also important to
+        minimize distractions, and this falls under making your layout easy to
+        understand and follow. You should have few or no ads, and if your page
+        has elements that scroll, auto-update, move, or blink, you should make
+        it so those elements can be somehow stopped or hidden or paused. The
+        only exception to this rule is if hiding, stopping, or pausing the
+        element would fundamentally alter the content.
+      </p>
+      <p>
+        Finally, you should avoid time limits on things, but if you have to
+        include a time limit, make sure to provide the user with a way to extend
+        the time limit or turn it off. You also need to warn the user at least
+        20 seconds before the time limit is up, and provide the user with an
+        easy way to increase the time limit, such as by pressing the spacebar.
+      </p>
 
-            <h2>Accommodations for Users With Motor Skill Impairments</h2>
-        </main>
-    </body>
+      <h2>Accommodations for Users With Motor Skill Impairments</h2>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
