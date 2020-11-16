@@ -5,3 +5,18 @@
 .nav.navbar-nav.navbar-right li a {
     color: white;
 }
+
+main{
+    margin-top: 5%;
+margin-left:25% !important;
+margin-right:25% !important;
+font-family: 'Questrial', sans-serif;
+}
+
+.header-color{
+    color: #ff7e65;
+}
+
+/* .h2-tab{
+margin-left:1em
+} */
