@@ -20,3 +20,8 @@ font-family: 'Questrial', sans-serif;
 /* .h2-tab{
 margin-left:1em
 } */
+
+video {
+    width: 100%;
+    height: auto;
+  }
